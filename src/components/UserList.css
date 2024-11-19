@@ -1,0 +1,42 @@
+/* User List Page Styling */
+.user-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-list ul {
+    padding-left: 0;
+  }
+  
+  .user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .user-list button:hover {
+    background-color: darkred;
+  }
+  
+  .user-list a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .user-list a:hover {
+    text-decoration: underline;
+  }
+  
